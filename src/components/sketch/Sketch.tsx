@@ -1,4 +1,4 @@
-import { merge } from 'lodash-es'
+import merge from 'lodash-es/merge'
 import { JSX, mergeProps } from 'solid-js'
 import { Alpha, Checkboard, Hue, Saturation, useColorPicker, withColorPicker } from '../_common'
 import SketchFields from './SketchFields'

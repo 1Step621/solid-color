@@ -1,4 +1,4 @@
-import { merge } from 'lodash-es'
+import merge from 'lodash-es/merge'
 import { JSX, mergeProps } from 'solid-js'
 import { ChangeColor, RgbColor } from '../../types'
 import { EditableInput, Raised } from '../_common'

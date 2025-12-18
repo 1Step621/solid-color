@@ -1,4 +1,4 @@
-import { merge } from 'lodash-es'
+import merge from 'lodash-es/merge'
 import { createSignal, JSX, mergeProps } from 'solid-js'
 import { Hue, Saturation, useColorPicker, withColorPicker } from '../_common'
 import PhotoshopButton from './PhotoshopButton'
